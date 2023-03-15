@@ -387,6 +387,7 @@ h1.company-name {
   color: #fff;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: border 0.3s;
 }
 .contact__form-box input:focus,
 .contact__form-box textarea:focus {
