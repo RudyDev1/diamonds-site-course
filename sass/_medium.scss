@@ -4,7 +4,7 @@
 
     .cards {
 
-        &__box{
+        &__box {
             padding: 10em 2em;
         }
 
@@ -25,6 +25,24 @@
                 grid-column: 7/10;
             }
         }
+    }
 
+    .plans {
+        padding: 8em 2em;
+
+        &__box {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            align-items: center;
+        }
+
+        &__item{
+            margin: 0 1em;
+
+            &-name{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
     }
 }
