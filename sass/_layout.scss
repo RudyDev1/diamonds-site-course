@@ -80,6 +80,14 @@
     }
 }
 
+.nav-box{
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    z-index: 999;
+    background-color: $nav-box;
+}
+
 .nav {
     &-mobile {
         position: absolute;
@@ -87,6 +95,7 @@
         left: 0;
         right: 0;
         bottom: 0;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;

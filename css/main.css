@@ -144,12 +144,21 @@ h1.company-name {
   z-index: 500;
 }
 
+.nav-box {
+  position: fixed;
+  width: 100vw;
+  height: 80px;
+  z-index: 999;
+  background-color: rgba(35, 35, 35, 0.8);
+}
+
 .nav-mobile {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -605,6 +614,10 @@ h1.company-name {
     left: 35%;
     width: 5%;
     animation: rotate-left 55s infinite linear;
+  }
+  .nav-box {
+    position: relative;
+    width: auto;
   }
   .nav {
     grid-column: 1/2;
