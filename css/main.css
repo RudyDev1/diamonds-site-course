@@ -582,7 +582,7 @@ h1.company-name {
   .header__arrow {
     display: block;
     position: absolute;
-    bottom: 3em;
+    bottom: 6.5em;
     left: 48%;
     padding: 2em;
     transform: translateX(-50%);
@@ -612,8 +612,8 @@ h1.company-name {
     display: block;
     top: 10em;
     left: 35%;
-    width: 5%;
-    animation: rotate-left 55s infinite linear;
+    width: 6%;
+    animation: rotate-left 35s infinite linear;
   }
   .nav-box {
     position: relative;
